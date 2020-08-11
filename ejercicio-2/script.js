@@ -21,7 +21,6 @@ let elements = 0;
 for (let ids = 0; ids < 9; ids++) {
   elements = document.querySelectorAll(`#c${ids}`);
   for (let i = 0; i < elements.length; i++) {
-    valor = true;
     elements[i].addEventListener('click', color);
   }
 
