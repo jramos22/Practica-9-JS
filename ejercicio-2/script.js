@@ -1,5 +1,4 @@
 function color(event) {
-  cambio(valor);
   for (let j = 0; j < elements.length; j++) {
     if (valor == true) {
       event.currentTarget.style.backgroundColor = 'red';
@@ -9,9 +8,6 @@ function color(event) {
       valor = !valor;
     }
   }
-}
-function cambio(valor) {
-  return valor;
 }
 
 // necesito un ciclo que me marque las clases 
